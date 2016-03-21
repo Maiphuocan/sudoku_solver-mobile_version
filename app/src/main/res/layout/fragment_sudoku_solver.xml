@@ -1,0 +1,245 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="maiphuocan.swinburne.utilities.SudokuSolverFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MainLayout"
+                android:layout_centerHorizontal="true">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText11" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText12" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText13" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText14" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText15" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText16" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText17" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText18" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText19" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText21" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText22" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText23" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText24" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText25" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText26" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText27" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText28" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText29" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText31" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText32" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText33" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText34" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText35" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText36" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText37" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText38" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText39" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText41" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText42" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText43" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText44" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText45" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText46" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText47" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText48" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText49" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText51" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText52" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText53" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText54" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText55" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText56" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText57" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText58" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText59" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText61" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText62" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText63" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText64" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText65" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText66" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText67" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText68" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText69" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText71" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText72" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText73" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText74" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText75" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText76" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText77" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText78" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText79" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText81" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText82" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText83" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText84" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText85" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText86" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText87" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText88" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText89" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText91" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText92" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText93" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText94" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText95" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText96" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText97" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText98" />
+                    <EditText android:layout_width="35dp" android:layout_height="wrap_content"
+                        android:inputType="number" android:ems="10" android:id="@+id/editText99" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solve"
+                android:id="@+id/buttonSolve"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>
